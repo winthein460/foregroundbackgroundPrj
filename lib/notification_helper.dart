@@ -1,4 +1,3 @@
-import 'dart:async';
 
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
@@ -41,8 +40,8 @@ abstract class NotificationHelper {
         'message_channel',
         'Message Channel',
         channelDescription: 'Mingalar pr tawthar myar',
-        importance: Importance.high,
-        priority: Priority.high,
+        importance: Importance.low,
+        priority: Priority.low,
         onlyAlertOnce: true,
         fullScreenIntent: true
       ),
